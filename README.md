@@ -1,2 +1,2 @@
-# midnight
-This is the official website of a small cycling club and it is not used for profit. Anyone can download, learn, and submit bugs to developers. No one may re-develop or sell illegally without authorization
+# Midnight
+Version 2.0 has been fully developed, this is the last version of 2.0, please get the historical version from Releases.

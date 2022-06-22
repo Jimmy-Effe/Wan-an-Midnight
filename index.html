@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8" />
+	<language ="zh-cn">
+		<!-- 弹窗 -->
+		<div id="myModal" class="modal"> 
+		  <!-- 弹窗内容 -->
+		  <div class="modal-content-noi"> 
+		    <div class="modal-header-noi"> 
+		      <span onclick="text2()" class="close">×</span> 
+		      <h2 align="center" class="noi-h2">公告</h2> 
+		    </div> 
+		    <div class="modal-body-noi"> 
+		      <p class="noi-p">网站将于2022年1月21日 下午11：00进行停机维护升级，届时您将无法访问网站，给您带来不便之处，敬请谅解。</p> 
+		      <!-- <p>弹窗内容...</p> -->
+		    </div> 
+		    <div class="modal-footer-noi"> 
+		      <h3 class="noi-h3">2022年1月21日</h3> 
+		    </div> 
+		  </div> 
+		</div> 
+		<script>
+		// 获取弹窗
+		    var modal = document.getElementById('myModal'); 
+		  
+		    // 打开弹窗的按钮对象 
+		    var btn = document.getElementById("myBtn"); 
+		  
+		    // 获取 <span> 元素，用于关闭弹窗 that closes the modal 
+		    var span = document.getElementsByClassName("close")[0]; 
+	
+		    // 点击 <span> (x), 关闭弹窗 
+		    function text2() { 
+		      modal.style.display = "none"; 
+		    } 
+		  
+		    // 在用户点击其他地方时，关闭弹窗 
+		    window.onclick = function(event) { 
+		      if (event.target == modal) { 
+		        modal.style.display = "none"; 
+		      } 
+		    } 
+	if(!window.sessionStorage.getItem('storge')){undefined
+	
+		  
+		 //modal.style.display = "block";
+		  
+		  //window.sessionStorage.setItem('storge','true')
+		  
+		  }
+		  
+		  </script>
+		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="./css/web20.css">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/ma.css">
+		<script src="./js/index.js" type="text/javascript"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="http://www.guiplan.com/static/css/bootstrap-gui.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="http://www.guiplan.com/static/css/gui-ui.min.css">
+ 		<link rel="stylesheet" href="http://www.guiplan.com/static/css/bootstrap-gui.min.css">
+		<link rel="stylesheet" href="http://www.guiplan.com/static/css/gui-ui.min.css">
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/popper.min.js"></script>
+		<script src="./js/jquery-slim.min.js"></script>
+ 		<link rel="stylesheet" type="text/css" href="css/web_index.css"/>
+		<title>midnight</title>
+		<link rel="shortcut icon"type="image/x-icon" href="./img/icon_homeapp__fyn4y730rpei_large_2x.ico"media="screen" />
+		
+	</head>
+	
+		
+		<div id="defaultId1"   class=" gui-xs gui-sm  testBorder  "style="background-color: #F5F5F7;" ></div>
+		<div id="c7a61c"    class=" testBorder  u37cbd"><div><div>
+			<nav class="navbar navbar-expand-md g-dark navbar-dark " style="background-color: #000000;">
+		  <a class="navbar-brand" href="index.html"><img src="./img/logo_1x.png" height="25px" width="130px"></a>
+		  <div class="language-2">
+		  <form action="" method="get">
+		  <select class="language" name=""onchange="javascript:if (this.options[this.selectedIndex].value != '')
+		   window.open(this.options[this.selectedIndex].value,'_self');this.options[0].selected;">  
+		  <option value="./en/">英</option>  
+		  <option value="" selected="selected">中</option>  
+		  </select>  
+		  </form> 
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+		  </div>
+		  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		    <ul class="navbar-nav">
+		      <li class="nav-item"><a class="nav-link-1" href="./page/schedule.html">日程</a></li>
+		      <li class="nav-item"><a class="nav-link-1" href="./page/member.html">成员</a></li>
+		      <li class="nav-item"><a class="nav-link-1" href="./page/cinfo.html">车辆信息</a></li>
+			  <li class="nav-item"><a class="nav-link-1" href="./page/shop.html">网上商店</a></li>
+			  <li class="nav-item"><a class="nav-link-1" href="./page/money.html">资金状态</a></li>
+			  <li class="nav-item"><a class="nav-link-1" href="./page/tool.html">工具&游戏</a></li>
+			  <li class="nav-item"><a class="nav-link-1" href="./page/about.html">关于我们</a></li>
+			  <li class="nav-item"><a class="nav-link-1" href="./page/update/HT2022211.html">更新</a></li>
+				<!-- <li class="nav-item"><a class="nav-link-1" href="./page/jingdian.html"></a></li>
+				<li class="nav-item"><a class="nav-link-1" href="./page/mingyan.html"></a></li>
+				<li class="nav-item"><a class="nav-link-1" href="./page/about.html"></a></li> -->
+		      </ul>
+			 </div>
+			</nav>
+		</div>	
+<body style="background-color: #F5F5F7;margin-top: 55px!important;">
+		
+		
+		
+		<!-- <div class="qwer">
+			<img class="img"  src="./img/logo_1x.png">
+			<p align="center" class="p1">Wait a moment</p>
+			<p align="center" class="p2">The website is under development, please come back later</p>
+			<p align="center" class="p2">Come back in soon</p>
+			
+		</div>
+		<div align="center" >
+			<a style="text-decoration: none;" href="" >
+				<h6 style="color:white;text-decoration: none;">Developer beta version</h6>
+			</a>
+		</div> -->
+		
+		
+					
+				
+			
+			
+			
+			
+
+		<!-- <div class="grid-container" style="background-color: #F5F5F7;">
+			<div class="item1" style="background-color: #F5F5F7;">
+				<div class="modo-content-under-sch"onclick="window.open('','_self')">
+					<div class="modo-content-felx">
+						<a class="unit-link" href="" target="_self"  hidden="ture"></a>
+							<div class="unit-text">
+								<h2 class="h2-1">Schedule</h2>
+								<h3 class="hui-h3">A week's schedule<br>(update time:10/01/2021 12:54 PM)</h3>
+					
+									<div class="unit-text-p1">
+										<p class="unit-text-p1-color">May under can buy</p>
+									</div>
+								<div class="unit-learn">
+									<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+								</div>
+					
+							</div>
+							<div class="unit-img">
+								<figure class="unit-img-photo-no">
+						
+								</figure>
+							</div>
+						</a>
+					</div>
+				</div> -->	 
+	<div class="all">		
+				<div class="noi">
+					<div class="noi-ico">
+						<img src="./img/noi.svg" class="noi-img">
+					</div>
+					<div class="noi-text">
+						 <marquee ><span class="noi-text-p">3.0 即将到来</span></marquee>
+					</div>
+				</div>
+				
+				<!--<div align="left" class="item-not" style="background-color: #F5F5F7; margin-top: 30px;">
+					<div class="modo-content-under-not" style="height: 100px;" onclick="openhttpnew()">
+						<div class="modo-content-felx">
+							<a class="unit-link" href="./page/1login.html" target="_self"  hidden="ture"></a>
+							<div style="margin-top: 30px;">
+								<p style="">查看3.0版本</p>
+							</div>
+							 <img class="img-not" style="width:50px;height: 50px;/*margin-top: 6px;*/margin-top:20px;margin-left: 20px;" src="./img/not.svg" />
+								<div class="unit-text"style="margin-left: 30px;margin-top: 5px;">
+									<h4 align="left" class="h2-1"style="margin-left:80px;margin-top:10px;">通知</h4>
+									<h3 style="/*margin-top: 5px;*/margin-top:8px;color: #000000;font-size:14px;margin-left:2s0px;" class="hui-h3">请各位尽快完成群内调查问卷<br>或点击此处此处访问</h3>
+						
+										
+						
+								</div>
+								<div class="unit-img">
+									<figure class="unit-img-photo-no">
+							
+									</figure>
+								</div> 
+							</a>
+						</div>
+					</div>
+				</div> -->
+				
+				<!-- <div  class="second-member-text-a"style="margin-top: 40px;">
+					 <a class="second-member-text-a-text" style="margin-top: 50px;" href=""><h5 style="color: #00cc33">未来日程</h5></a> 
+				</div>
+				<hr style="margin-left: 10px; margin-right: 10px; border-top-width: 2px;color: #000000;">
+					 <h6 align="center"style="color: #A8A8AA;margin-bottom: 30px;margin-top: 30px;">暂无未来日程</h6>
+
+							<div class="grid-container" style="background-color: #F5F5F7;">
+								<div align="left" class="item1-sch-i" style="background-color: #F5F5F7; margin-bottom: 10px;">
+									<div class="modo-content-under-l1" style="margin-bottom: 15px;" onclick="window.open(' ','_self')">
+										<div class="modo-content-felx">
+											<a class="unit-link" href="" target="_self"  hidden="ture"></a>
+											<img class="img-sch" src="./img/calendar.svg" />
+												<div class="unit-text">
+													<h4 class="h2-1">车队日程</h4>
+													<h3 class="hui-h3">2022年1月21日<br>南宁之行</h3>
+										
+														<div class="unit-text-p1">
+															<p class="unit-text-p1-color">May under can buy</p>
+														</div>
+													<div class="unit-learn">
+														<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+													</div>
+										
+												</div>
+												<div class="unit-img">
+													<figure class="unit-img-photo-no">
+											
+													</figure>
+												</div>
+											</a>
+										</div>
+									</div> 
+
+				<hr style="margin-left: 10px; margin-right: 10px; border-top-width: 2px;color: #000000;"> 
+				 -->
+				
+				
+				
+				
+				<!-- <div class="item1" style="background-color: #F5F5F7;">
+					<div class="modo-content-under-spf"onclick="download()">
+						<div class="modo-content-felx">
+							<a class="unit-link" href="" target="_self"  hidden="ture"></a>
+								<div class="unit-text"style="margin-left: 0px;display: flex;">
+									<h2 class="h2-1"style="font-size: 15px;color:#2997FF;margin-top: 380px;">点击下载壁纸></h2>
+									<h2 class="h2-1"style="font-size: 29px;color:#fe9a00;margin-left: 5px;"> Midnight</h2>
+									<h3 class="hui-h3">A week's schedule<br>(update time:10/01/2021 12:54 PM)</h3>
+						
+										<div class="unit-text-p1">
+											<p class="unit-text-p1-color">May under can buy</p>
+										</div>
+									<div class="unit-learn">
+										<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+									</div>
+						
+								</div>
+								<div class="unit-img">
+									<figure class="unit-img-photo-no">
+							
+									</figure>
+								</div>
+							</a>
+						</div>
+					</div> -->
+					<div class="grid-container" style="background-color: #F5F5F7;">
+						
+						<div class="item1" style="background-color: #F5F5F7;">
+							<div class="modo-content-under-sch"onclick="window.open('./page/more1.html','_self')">
+								<div class="modo-content-felx">
+									<a class="unit-link" href="" target="_self"  hidden="ture"></a>
+										<div class="unit-text"style="margin-left: 0px;">
+											<h2 class="h2-1"style="font-size: 29px;color: #FFFFFF;">Midnight3.0</h2>
+											 <h3 class="hui-h3">即将发布的官网全新版本</h3> 
+								
+												 <!-- <div class="unit-text-p1">
+													<p class="unit-text-p1-color">May under can buy</p>
+												</div> -->
+											<div class="unit-learn">
+												<a class="unit-link" href="./page/more1.html" target="_self"  >了解更多&nbsp;></a> 
+											</div> 
+								
+										</div>
+										<div class="unit-img">
+											<figure class="unit-img-photo-no">
+									
+											</figure>
+										</div>
+									</a>
+								</div>
+							</div>
+						
+						<div class="reviews-container">
+							<h3>3.0开发状态<sup style="color: #A6a6a7;">*</sup></h3>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="100"></div>
+								</div>
+								<span class="percent">100%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">新增页面1</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="100"></div>
+								</div>
+								<span class="percent">100%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">新增页面2</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="70"></div>
+								</div>
+								<span class="percent">70%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;程</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="100"></div>
+								</div>
+								<span class="percent">100%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">成&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;员</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="50"></div>
+								</div>
+								<span class="percent">50%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">车辆信息</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="100"></div>
+								</div>
+								<span class="percent">100%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">资&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;金</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="100"></div>
+								</div>
+								<span class="percent">100%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">商&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;店</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="0"></div>
+								</div>
+								<span class="percent">0%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">公&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;告</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="70"></div>
+								</div>
+								<span class="percent">70%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">游&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;戏</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="30"></div>
+								</div>
+								<span class="percent">30%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">关于我们</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="100"></div>
+								</div>
+								<span class="percent">100%</span>
+							</div>
+							
+							<div class="review">
+								<span class="icon-container"><p class="icon-container">更&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新</p></span>
+								<div class="progress">
+									<div class="progress-done" data-done="70"></div>
+								</div>
+								<span class="percent">70%</span>
+							</div>
+							
+							<h6 style="color: #A6a6a7;font-size: 12px;">*部分页面可能会被移除(更新于2022/4/2 12:00)</h6>
+							
+						</div>
+						
+						<script  src="./js/ma.js"></script>
+						
+						<div style="text-align:center;clear:both;">
+						<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+						<script src="/follow.js" type="text/javascript"></script>
+						</div>
+					
+					
+					<div class="grid-container" style="background-color: #F5F5F7;">
+						<div class="modo-content-under-move">
+					<div align="center" class="carousel auto-play">
+					  <ul  class="slides">
+					    <li id="slide-1" class="slide">
+					      <img class="move-img" src="./img/img_1.png" alt="img1" />
+					    </li>
+					    <li id="slide-2" class="slide">
+					      <img class="move-img" src="./img/img_2.png" alt="img2" />
+					    </li>
+					    <li id="slide-3" class="slide">
+					      <img class="move-img" src="./img/img_3.png" alt="img3" />
+					    </li>
+					    
+					  </ul>
+					  <ul class="nav-dots"style="display: none;height: 1px;">
+					    <li class="dot"><a href="#slide-1"></a></li>
+					    <li class="dot"><a href="#slide-2"></a></li>
+					    <li class="dot"><a href="#slide-3"></a></li>
+					    
+					  </ul>
+					  <ul class="nav-arrows" style="display: none;">
+					    <li class="arrow-left"></li>
+					    <li class="arrow-right"></li>
+					  </ul>
+					</div>
+					</div>
+					</div>
+					<!-- partial -->
+					  <script  src="./js/move.js"></script>
+				
+				<!-- <div class="item1" style="background-color: #F5F5F7;">
+					<div class="modo-content-under-sch"onclick="window.open('','_self')">
+						<div class="modo-content-felx">
+							<a class="unit-link" href="" target="_self"  hidden="ture"></a>
+								<div class="unit-text"style="margin-left: 0px;display: flex;">
+									<h2 class="h2-1"style="font-size: 29px;color:#000000;">湾岸</h2>
+									<h2 class="h2-1"style="font-size: 29px;color:#fe9a00;margin-left: 5px;"> Midnight</h2>
+									<h3 class="hui-h3">A week's schedule<br>(update time:10/01/2021 12:54 PM)</h3>
+						
+										<div class="unit-text-p1">
+											<p class="unit-text-p1-color">May under can buy</p>
+										</div>
+									<div class="unit-learn">
+										<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+									</div>
+						
+								</div>
+								<div class="unit-img">
+									<figure class="unit-img-photo-no">
+							
+									</figure>
+								</div>
+							</a>
+						</div>
+					</div> -->
+				<!-- <div class="grid-container" style="background-color: #F5F5F7;"> -->
+								<div class="item1" style="background-color: #F5F5F7;">
+									<div class="modo-content-under-sch-1"onclick="window.open('./page/shop/bike-nth.html','_self')">
+										<div class="modo-content-felx"style="display: flex;
+				    flex-direction: row;
+				    align-content: center;
+				    flex-wrap: nowrap;
+				    justify-content: space-between;
+				">
+											<a class="unit-link" href="" target="_self"  hidden="ture"></a>
+												<div align="center" class="unit-text-s"style="margin-top: 36px;">
+													<h2 class="h2-1"style="color: #FFFFFF;font-size: 36px;font-weight: 600;">SPECIALIZED</h2><br>
+													<h3 class="hui-h3"style="color: #FFFFFF;font-size: 34px;font-weight: 400;">重磅新品, 即将登场</h3><br>
+										
+														<!-- div class="unit-text-p1">
+															<p class="unit-text-p1-color">May under can buy</p>
+														</div>
+													<div class="unit-learn"> -->
+														<!-- <a style="color: #0066cc;font-size: 17px;" class="unit-link" href="./page/shop/bike-nth.html" target="_self"  >learn more&nbsp;></a> -->
+														<div class="two-btn-wrapper"> <a style="color: #FFFFFF" href="./page/shop/bike-nth.html" class="action_button first_button highlight- banner-button-first">
+														                      立即访问</a></div>
+													</div>
+										
+												</div>
+												<div class="unit-img">
+													<figure class="unit-img-photo-no">
+											
+													</figure>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>	
+									
+				<div class="grid-container" style="background-color: #F5F5F7;">
+					<!-- <div class="item1" style="background-color: #F5F5F7;">
+						<div class="modo-content-under-sch"onclick="window.open('','_self')">
+							<div class="modo-content-felx">
+								<a class="unit-link" href="" target="_self"  hidden="ture"></a>
+									<div class="unit-text"style="margin-left: 0px;">
+										<h2 class="h2-1"style="font-size: 29px;">WE ARE FAMLIY!!</h2>
+										 <h3 class="hui-h3">A week's schedule<br>(update time:10/01/2021 12:54 PM)</h3> 
+							
+											 <div class="unit-text-p1">
+												<p class="unit-text-p1-color">May under can buy</p>
+											</div>
+										<div class="unit-learn">
+											<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+										</div> 
+							
+									</div>
+									<div class="unit-img">
+										<figure class="unit-img-photo-no">
+								
+										</figure>
+									</div>
+								</a>
+							</div>
+						</div> -->
+					
+					
+				<div align="left" class="item1" style="background-color: #F5F5F7; margin-top: 30px;">
+					<div class="modo-content-under-l1"onclick="window.open('./page/update/HT2022211.html','_self')">
+						<div class="modo-content-felx">
+							<a class="unit-link" href="./page/update/HT2022211.html" target="_self"  hidden="ture"></a>
+							<img class="img-sch" style="width:50px;height: 50px;margin-top: 15px;margin-left: 20px;" src="./img/update.svg" />
+								<div class="unit-text">
+									<h4 class="h2-1">已更新至2.4.18</h4>
+									<h3 style="margin-top: 10px;" class="hui-h3">查看历史更新</h3>
+						
+										<!-- <div class="unit-text-p1">
+											<p class="unit-text-p1-color">May under can buy</p>
+										</div> -->
+									<!-- <div class="unit-learn">
+										<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+									</div> -->
+						
+								</div>
+								<div class="unit-img">
+									<figure class="unit-img-photo-no">
+							
+									</figure>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<div align="left" class="item1" style="background-color: #F5F5F7; margin-top: 30px;">
+					<div class="modo-content-under-l1"onclick="window.open('./page/tool.html','_self')">
+						<div class="modo-content-felx">
+							<a class="unit-link" href="./page/tool.html" target="_self"  hidden="ture"></a>
+							<img class="img-sch" style="width:50px;height: 50px;margin-top: 15px;margin-left: 20px;" src="./img/tool.svg" />
+								<div class="unit-text">
+									<h4 class="h2-1">工具&游戏</h4>
+									<h3 style="margin-top: 10px;" class="hui-h3">工具与打发时间的小游戏</h3>
+						
+						
+								</div>
+								<div class="unit-img">
+									<figure class="unit-img-photo-no">
+							
+									</figure>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<div align="left" class="item1" style="background-color: #F5F5F7; margin-top: 30px;">
+					<div class="modo-content-under-l1"onclick="window.open('./page/noi.html','_self')">
+						<div class="modo-content-felx">
+							<a class="unit-link" href="./page/noi.html" target="_self"  hidden="ture"></a>
+							<img class="img-sch" style="width:50px;height: 50px;margin-top: 15px;margin-left: 20px;" src="./img/history.svg" />
+								<div class="unit-text">
+									<h4 class="h2-1">公告&通知</h4>
+									<h3 style="margin-top: 10px;" class="hui-h3">查看历史公告&通知</h3>
+						
+						
+								</div>
+								<div class="unit-img">
+									<figure class="unit-img-photo-no">
+							
+									</figure>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div align="left" class="item1" style="background-color: #F5F5F7;">
+					<div class="modo-content-under-l1"onclick="window.open('./page/donate.html','_self')">
+						<div class="modo-content-felx">
+							<a class="unit-link" href="../page/donate.html" target="_self"  hidden="ture"></a>
+							<svg  viewBox="64 64 896 896" data-icon="red-envelope" width="60px" height="60px" margin-top: 15px;margin-left: 20px; fill="currentColor" aria-hidden="true" focusable="false" class=""style="margin-top: 10px;margin-left: 10px;"><path d="M440.6 462.6a8.38 8.38 0 0 0-7.5-4.6h-48.8c-1.3 0-2.6.4-3.9 1a8.4 8.4 0 0 0-3.4 11.4l87.4 161.1H419c-4.6 0-8.4 3.8-8.4 8.4V665c0 4.6 3.8 8.4 8.4 8.4h63V702h-63c-4.6 0-8.4 3.8-8.4 8.4v25.1c0 4.6 3.8 8.4 8.4 8.4h63v49.9c0 4.6 3.8 8.4 8.4 8.4h43.7c4.6 0 8.4-3.8 8.4-8.4v-49.9h63.3c4.7 0 8.4-3.8 8.2-8.5v-25c0-4.6-3.8-8.4-8.4-8.4h-63.3v-28.6h63.3c4.6 0 8.4-3.8 8.4-8.4v-25.1c0-4.6-3.8-8.4-8.4-8.4h-45.9l87.2-161a8.45 8.45 0 0 0-7.4-12.4h-47.8c-3.1 0-6 1.8-7.5 4.6l-71.9 141.9-71.7-142zM832 64H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zm-40 824H232V193.1l260.3 204.1c11.6 9.1 27.9 9.1 39.5 0L792 193.1V888zm0-751.3h-31.7L512 331.3 263.7 136.7H232v-.7h560v.7z"></path></svg>
+								<div class="unit-text">
+									<h4 class="h2-1">捐助</h4>
+									<h3 style="margin-top: 10px;" class="hui-h3">开发不易</h3>
+						
+										<!-- <div class="unit-text-p1">
+											<p class="unit-text-p1-color">May under can buy</p>
+										</div> -->
+									<!-- <div class="unit-learn">
+										<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+									</div> -->
+						
+								</div>
+								<div class="unit-img">
+									<figure class="unit-img-photo-no">
+							
+									</figure>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+				<div align="left" class="item1" style="background-color: #F5F5F7;">
+					<div class="modo-content-under-l1"onclick="window.open('./page/shop.html','_self')">
+						<div class="modo-content-felx">
+							<a class="unit-link" href="../page/shop.html" target="_self"  hidden="ture"></a>
+							<img class="img-sch" style="width:50px;height: 50px;margin-top: 15px;margin-left: 20px;" src="./img/shop.svg" />
+								<div class="unit-text">
+									<h4 class="h2-1">商店</h4>
+									<h3 style="margin-top: 10px;" class="hui-h3">商店已开放</h3>
+						
+										<!-- <div class="unit-text-p1">
+											<p class="unit-text-p1-color">May under can buy</p>
+										</div> -->
+									<!-- <div class="unit-learn">
+										<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+									</div> -->
+						
+								</div>
+								<div class="unit-img">
+									<figure class="unit-img-photo-no">
+							
+									</figure>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				
+			
+					<div align="left" class="item1" style="background-color: #F5F5F7;">
+						<div class="modo-content-under-l1"onclick="window.open('./page/member.html','_self')">
+							<div class="modo-content-felx">
+								<a class="unit-link" href="./page/member.html" target="_self"  hidden="ture"></a>
+								<img class="img-sch"style="width:50px;height: 50px;margin-top: 15px;margin-left: 20px;" src="./img/member.png" />
+									<div class="unit-text">
+										<h4 class="h2-1">车队成员</h4>
+										<h3 style="margin-top: 10px;" class="hui-h3">已提交 9/16</h3>
+							
+											<!-- <div class="unit-text-p1">
+												<p class="unit-text-p1-color">May under can buy</p>
+											</div> -->
+										<!-- <div class="unit-learn">
+											<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+										</div> -->
+							
+									</div>
+									<div class="unit-img">
+										<figure class="unit-img-photo-no">
+								
+										</figure>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				
+				
+					<div align="left" class="item1" style="background-color: #F5F5F7; margin-bottom: 10px;">
+						<div class="modo-content-under-l1"onclick="window.open('./page/schedule.html','_self')">
+							<div class="modo-content-felx">
+								<a class="unit-link" href="./page/schedule.html" target="_self"  hidden="ture"></a>
+								<img class="img-sch" src="./img/calendar.svg" />
+									<div class="unit-text">
+										<h4 class="h2-1">车队日程</h4>
+										<h3 class="hui-h3">2021年12月18日<br>年终环青</h3>
+							
+											<!-- <div class="unit-text-p1">
+												<p class="unit-text-p1-color">May under can buy</p>
+											</div> -->
+										<!-- <div class="unit-learn">
+											<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+										</div> -->
+							
+									</div>
+									<div class="unit-img">
+										<figure class="unit-img-photo-no">
+								
+										</figure>
+									</div>
+								</a>
+							</div>
+						</div>
+						
+					</div>
+				<!-- <div align="left" class="item1" style="background-color: #F5F5F7; margin-top: 30px;">
+					<div class="modo-content-under-l1"onclick="window.open('./page/schedule.html','_self')">
+						<div class="modo-content-felx">
+							<a class="unit-link" href="./page/schedule.html" target="_self"  hidden="ture"></a>
+							<img class="img-sch" src="../img/calendar.svg" />
+								<div class="unit-text">
+									<h4 class="h2-1">车队日程</h4>
+									<h3 class="hui-h3">2021年12月18日<br>年终环青</h3>
+						
+										<div class="unit-text-p1">
+											<p class="unit-text-p1-color">May under can buy</p>
+										</div>
+									<div class="unit-learn">
+										<a class="unit-link" href="./img/sch.png" target="_self"  >learn more&nbsp;></a> 
+									</div>
+						
+								</div>
+								<div class="unit-img">
+									<figure class="unit-img-photo-no">
+							
+									</figure>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div> -->
+					
+			</div>
+		</div>
+</body>
+	
+<footer class="footer" >
+	
+	<hr style="margin: 15px;">
+		<nav class="nav-fooder">
+			<a class="home-a">
+				<img href="index.html" src="./img/cyc.svg"style="" class="home-icon"\>
+			</a>
+			<div class="nav-fooder-text">
+				<ol class="nav-fooder-ol">
+					<li class="nav-fooder-li">
+						>
+						<div class="nav-fooder-li-text">
+							<a href="index.html">
+							首页
+							</a>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</nav>
+		<hr style="margin: 15px;">
+					<!-- <section class="section-1">
+	
+						<ol class="section-1 ol">
+							<li class="li-footer-1">
+									1. 以上内容等待填充
+							</li>
+							<li class="li-footer-2">
+									2. 目前只能访问首页，其他页面尚未完成
+						</ol>
+						
+					</section> -->
+					<div class="section-1-country"style="margin-top: 30px;">
+						中文
+					</div>
+					<section class="section-2">
+						<div class="copy-top">
+							<div class="copy">
+								Copyright ©
+												
+												2022
+												 &nbsp;Junchen Yi&nbsp;&nbsp;Taohua Nong&nbsp;. 保留所有权利
+				
+							<div class="about-home">
+								<a class="link" href="./page/about.html">关于</a>
+								<a class="link" href="./page/Legal.html">法律信息</a>
+								<a class="link" href="./page/.html">使用条款</a>
+								<a class="link" href="./page/map.html">网站地图</a>
+							</div>
+							<div class="about-home" align="right">
+								
+								<a class="link" href="index.html">中文</a>
+								<a class="link" href="./en/index.html">English</a>
+							</div>
+						</div>
+					</section>
+				</footer>
+				
+</html>

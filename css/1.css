@@ -1,0 +1,55 @@
+.page-bio .section-hero {
+            min-height: 336px
+        }
+
+        @media only screen and (max-width: 1068px) {
+            .page-bio .section-hero {
+                min-height:313px
+            }
+        }
+
+        @media only screen and (max-width: 735px) {
+            .page-bio .section-hero {
+                min-height:auto
+            }
+        }
+
+        .page-bio .section-hero .image-hero {
+ background-image: url(../img/junchen_yi_1068.png);
+            height: 336px;
+            background-size: 489px 336px;
+            background-repeat: no-repeat
+        }
+
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-resolution:1.5dppx),(-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi) {
+            .page-bio .section-hero .image-hero {
+ background-image: url(../img/junchen_yi_1068.png);
+            }
+        }
+
+        @media only screen and (max-width: 1068px) {
+            .page-bio .section-hero .image-hero {
+				 background-image: url(../img/junchen_yi_1068.png);
+                height: 313px;
+                background-size: 414px 313px
+            }
+        }
+
+        @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px) and (min-resolution:144dpi),only screen and (max-width:1068px) and (-webkit-min-device-pixel-ratio:144),only screen and (max-width:1068px) and (min-resolution:144dppx) {
+            .page-bio .section-hero .image-hero {
+					 background-image: url(../img/junchen_yi_1068.png);
+				}
+        }
+
+        @media only screen and (max-width: 735px) {
+            .page-bio .section-hero .image-hero {
+		  background-image: url(../img/junchen_yi_735.png);
+			 height: 220px;
+                background-size: 292px 220px
+            }
+        }
+
+        @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:735px) and (min-resolution:144dpi),only screen and (max-width:735px) and (-webkit-min-device-pixel-ratio:144),only screen and (max-width:735px) and (min-resolution:144dppx) {
+            .page-bio .section-hero .image-hero {
+  background-image: url(../img/junchen_yi_735.png);           }
+        }

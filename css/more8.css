@@ -1,0 +1,223 @@
+
+body{
+	overflow:auto;
+	overflow-x: hidden;
+	}
+
+.im-info{
+margin-top: -40px;
+	background-color: #FFFFFF;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	    justify-content: center;
+	    align-content: center;
+	    flex-wrap: nowrap;
+	    align-items: center;
+}
+.num-v{
+	font-size: 19px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.info-big{
+	font-size: 48px;
+	margin-bottom: 10px;
+}
+.info-info{
+	font-size: 18px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+.card-new{
+	width: 1000px;
+	margin-top: 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	    border: 0px;
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    align-content: center;
+	    justify-content: space-around;
+	    align-items: center;
+	
+}
+@media only screen and (max-width: 1068px){
+	.card-new{
+		margin-top: 30px;
+		    border: 0px;
+		    margin-left: 100px;
+		    margin-right: 100px;
+		    width: auto;
+		    display: flex;
+		    flex-direction: row;
+		    flex-wrap: wrap;
+		    align-content: center;
+		    justify-content: center;
+		    align-items: center;
+		
+	}
+}
+@media only screen and (max-width: 768px){
+	.card-new{
+		margin-top: 30px;
+		    border: 0px;
+			margin-left: 0;
+			margin-right: 0;
+			width: auto;
+		    display: flex;
+		    flex-direction: column;
+		    flex-wrap: nowrap;
+		    align-content: center;
+		    justify-content: center;
+		    align-items: center;
+		
+	}
+}
+.top-text{
+	font-size: 32px;
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.card-box{
+	width: 360px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #FFFFFF;
+	border-radius: 32px;
+}
+.card-box-top{
+	margin-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 19px;
+	font-weight: 600;
+}
+.card-box-info-new{
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 17px;
+	font-weight: 600;
+}
+.card-img-box{
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+.card-img-img-box{
+	width: 270px;
+	height: 543px;
+}
+.card-box{
+	display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: flex-start;
+		
+}
+
+.can{
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	    background-image: url(../img/background-none.png);
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: space-evenly;
+	    align-content: center;
+	    align-items: center;
+}
+@media only screen and (max-width:768px) {
+	.can{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		    background-image: url(../img/background-none.png);
+		    display: block;
+	}
+}
+.can-top{
+	color: #ffffff;
+	font-size: 29px;
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+.can-list{
+	margin-left: 30px;
+	padding-bottom: 30px;
+	color: #FFFFFF;
+	margin-top: 60px;
+}
+.can-list-ul{
+	
+}
+.can-list-li{
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.can-list-li-p{
+	font-size: 17px;
+}
+.info-text-page{
+	width: 1000px;
+	    margin-top: 30px;
+	    margin-left: 300px;
+	    margin-right: 200px;
+	    border: 0px;
+	    display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: flex-start;
+	    
+}
+@media only screen and (max-width:1068px) {
+.info-text-page{
+	margin-top: 30px;
+	    border: 0px;
+		margin-left: 150px;
+		margin-right: 100px;
+		width: auto;
+	    display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: flex-start;
+	    
+}
+}
+@media only screen and (max-width:768px) {
+.info-text-page{
+	margin-top: 30px;
+	    border: 0px;
+		margin-left: 50px;
+		margin-right: 50px;
+		width: auto;
+	    display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: flex-start;
+	    
+}
+}
+.info-text-page-p{
+	font-size: 21px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.info-text-page-p2{
+	font-size: 17px;
+	font-weight: 400;
+}

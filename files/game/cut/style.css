@@ -1,0 +1,77 @@
+button {
+  font-size: 80px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  border-bottom: 5px solid #999999;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.left {
+  width: 35%;
+  text-align: center;
+}
+
+.score {
+  width: 30%;
+  text-align: center;
+  font-size: 60px;
+  color: blue;
+  margin-top: 12px;
+}
+
+.right {
+  width: 35%;
+  text-align: center;
+}
+
+.game-controls {
+  text-align: center;
+}
+
+.game-controls button {
+  width: auto;
+  height: auto;
+  font-size: 40px;
+  line-height: 40px;
+  padding: 30px 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  padding: 20px;
+  margin: 1px;
+  background-color: #ccc;
+  font-size: 20px;
+}
+
+.win {
+  background-color: #70e87b;
+}
+.lose {
+  background-color: #ed6464;
+}
+.draw {
+  background-color: #ffed53;
+}
+.system {
+  background-color: #ccc;
+}
+
+.disabled {
+  pointer-events: none;
+  color: #ccc;
+}

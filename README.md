@@ -4,12 +4,12 @@ This is the official website of a small cycling club and it is not used for prof
 All files, pictures, manuscripts and other data information stored in the form of electronic data in this folder are owned by Wan-an-Midnight. Without permission, no one may reproduce, use, change or profit in any form. Violators will be investigated according to law legal liability.
 
 # Developer
-by @Jimmy_Effe & @GugubirdNth
+by @Jimmy Effe & @GugubirdNth
 
-UI by @Jimmy_Effe & @GugubirdNth & @Yinghua Nong
+UI by @GugubirdNth & @Jimmy Effe & @Yinghua Nong
 
 # Special Thanks
-@Hanxiang Jing for testing
+@Hanxiang Jiang for testing
 
 @Fan Effe for Cybersecurity Guidance
 

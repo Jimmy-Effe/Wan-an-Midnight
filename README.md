@@ -11,7 +11,7 @@ UI by @Jimmy_Effe & @GugubirdNth & @Yinghua Nong
 # Special Thanks
 @Hanxiang Jing for testing
 
-@Fan_Effe for Cybersecurity Guidance
+@Fan Effe for Cybersecurity Guidance
 
 @Jiale Nong for coming up with UI ideas
 

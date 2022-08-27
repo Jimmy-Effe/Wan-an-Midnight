@@ -1,0 +1,184 @@
+/* @Author       : Effe-jimmy
+ * @Designer	 : Taohua-Nong
+ * @Date         : 2022-07-14 09:11:30
+ * @Program name : index3.html
+ * Copyright (c) 2022 by Effe-jimmy Taohua-Nong, All Rights Reserved.
+ */
+body{
+	background-color: #f5f5f7;
+}
+a{
+	color: #f5f5f7!important;
+}
+.main-body{
+	background-color: #f5f5f7;
+	
+}
+.whatis{
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.whatis-title{
+	color: black;
+	margin-bottom: 40px;
+}
+.whatis-title-p{
+	font-size: 21px;
+	font-weight: 700;
+}
+.whatis-body{
+	margin-bottom: 30px;
+}
+.whatis-body-p{
+	font-size: 19px;
+	color: black;
+}
+.num{
+	margin-top: 100px;
+	    margin-left: 30px;
+	    margin-right: 30px;
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: space-around;
+	    align-items: center;
+}
+.num-year{
+	color: #000000;
+	display: flex;
+	flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+		background-image: linear-gradient(120deg,#fff 55%,#f5f5f5);
+		    border: 1px solid hsla(240,6%,83%,.63);
+		    border-radius: 15px;
+		    background-position: 50%;
+		    background-size: cover;
+		    background-color: #fff;
+		    transform: translateZ(0);
+		    min-height: 50px;
+		    filter: drop-shadow(0 10px 10px rgba(76,76,109,.07059));
+		    box-sizing: border-box;
+		    height: 70px;
+		    overflow: hidden;
+		    position: relative;
+		    width: 120px;
+			margin-right: 10px;
+			
+}
+.num-year-title{
+	font-size: 19px;
+	padding-bottom: 4px;
+}
+.num-year-body{
+	font-size: 18px;
+}
+.num-total{
+	color: #000000;
+	display: flex;
+	flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+		background-image: linear-gradient(120deg,#fff 55%,#f5f5f5);
+		    border: 1px solid hsla(240,6%,83%,.63);
+		    border-radius: 15px;
+		    background-position: 50%;
+		    background-size: cover;
+		    background-color: #fff;
+		    transform: translateZ(0);
+		    min-height: 50px;
+		    filter: drop-shadow(0 10px 10px rgba(76,76,109,.07059));
+		    box-sizing: border-box;
+		    height: 70px;
+		    overflow: hidden;
+		    position: relative;
+		    width: 120px;
+			margin-right: 10px;
+}
+.num-total-title{
+	font-size: 19px;
+	padding-bottom: 4px;
+}
+.num-total-body{
+	font-size: 18px;
+}
+.num-fix{
+	color: #000000;
+	display: flex;
+	flex-direction: column;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    justify-content: center;
+	    align-items: center;
+		background-image: linear-gradient(120deg,#fff 55%,#f5f5f5);
+		    border: 1px solid hsla(240,6%,83%,.63);
+		    border-radius: 15px;
+		    background-position: 50%;
+		    background-size: cover;
+		    background-color: #fff;
+		    transform: translateZ(0);
+		    min-height: 50px;
+		    filter: drop-shadow(0 10px 10px rgba(76,76,109,.07059));
+		    box-sizing: border-box;
+		    height: 70px;
+		    overflow: hidden;
+		    position: relative;
+		    width: 120px;
+			
+}
+.num-fix-title{
+	font-size: 19px;
+	padding-bottom: 4px;
+}
+.num-fix-body{
+	font-size: 18px;
+}
+.mve-list{
+	margin-top: 60px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 80px;
+}
+.list-ul{
+	width: 100%;
+	border-radius: 13px;
+	background-color: #ffffff;
+	height: 100%;
+	text-align: center;
+}
+.list-li{
+	height: 50px;
+	display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+	border-bottom: #f5f5f7;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom: 1.5px solid #f5f5f7!important;
+
+}
+.list-num{
+	font-size: 15px;
+	color: #000000;
+}
+.list-data{
+	font-size: 15px;
+	color: #000000;
+	display: flex;
+	flex-direction: row;
+	    justify-content: flex-end;
+	    flex-wrap: nowrap;
+	    align-content: center;
+	    align-items: center;
+}

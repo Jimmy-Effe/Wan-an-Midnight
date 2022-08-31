@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<meta http-equiv="refresh" content="4.7;url=index.html">
+ 		<script src="index.html" async></script>
+		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" href="./css/index2.css">
+		<link rel="stylesheet" href="./css/web20.css">
+		<script src="./js/index.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+		<meta charset="utf-8">
+		  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Midnight｜首页</title>
+	</head>
+	<body onload="open666()" style="margin-top: 0!important;">
+		<div id="loading" class="loading">
+			<div class="loading-main">
+				<div class="loading-logo">
+					<img src="./img/logo_2x.png" class="loading-logo-img" >
+				</div>
+				
+				<template id="xcprogress">
+				        <div class="xcprogress">
+				            <div class="xcprogress-bar" :style="{ 'width': `${value}%` }">
+				                <span class="xcprogress-bar-value">{{ value }}%</span>
+				            </div>
+				        </div>
+				    </template>
+				
+				    <div id="app">
+				        <xc-progress :value="value" @change="change"></xc-progress>
+				    </div>
+				
+				
+					<!-- <div id="myModal123" class="modal"style="display: block;"> 
+					
+					
+					  <div class="modal-content-noi"> 
+					    <div class="modal-header-noi"> 
+					      <span onclick="text2()" class="close">×</span> 
+					      <h2 align="center" class="noi-h2">公告</h2> 
+					    </div> 
+					    <div class="modal-body-noi"> 
+					      <p class="noi-p">网站将于2022年5月10日 下午11：00进行服务器域名转移，以及接入pyscript功能和后台升级，届时您将无法使用网页的部分或全部功能(视情况而定)，给您造成不便，尽请谅解。</p> 
+					      <p align="right"style="margin-top: 10px;">(点击X关闭)</p>
+					    </div> 
+					    <div class="modal-footer-noi"> 
+					      <h3 class="noi-h3">2022年5月7日</h3> 
+					    </div> 
+					  </div> 
+					
+					</div> 
+					 <script>
+					// 获取弹窗
+					    var modal = document.getElementById('myModal123'); 
+					  
+					    // 打开弹窗的按钮对象 
+					    var btn = document.getElementById("myBtn"); 
+					  
+					    // 获取 <span> 元素，用于关闭弹窗 that closes the modal 
+					    var span = document.getElementsByClassName("close")[0]; 
+					  
+					    
+					  
+					    // 点击 <span> (x), 关闭弹窗 
+					    function text2() { 
+					      modal.style.display = "none"; 
+							window.location.href="index.html";                   
+					    } 
+					  
+					    // 在用户点击其他地方时，关闭弹窗 
+					    window.onclick = function(event) { 
+					      if (event.target == modal) { 
+					        modal.style.display = "none"; 
+							window.location.href="index.html";
+							
+					      } 
+					    } 
+						
+						
+						
+				// if(!window.sessionStorage.getItem('storge')){undefined
+				
+					  
+				// 	  modal.style.display = "block";
+					  
+				// 	   window.sessionStorage.setItem('storge','true')
+					  
+					  
+					  
+					  </script> -->
+				
+			</div>
+			
+			
+			
+			<script>
+			var qwe = Math.floor((Math.random()*80)+20);
+			window.onload = () => {
+			    const app = new Vue({
+			        el: '#app',
+			        data: {
+			            value: 0
+			        },
+			        methods: {
+			            change(value) {
+			                this.value = value;
+			            }
+			        },
+			        mounted() {
+			            setTimeout(() => {
+			                setInterval(() => {
+			                    this.value += qwe;
+			                }, 900);
+			            }, 600);
+			        },
+			        components: {
+			            'xc-progress': {
+			                template: '#xcprogress',
+			                props: {
+			                    value: {
+			                        type: Number,
+			                        default: 0
+			                    }
+			                },
+			                watch: {
+			                    value(newVal) {
+			                        if (newVal > 99) {
+			                            this.value = 99;
+			                        } else if (newVal < 0) {
+			                            this.value = 0;
+			                        }
+			                        this.$emit('change', this.value);
+			                    }
+			                }
+			            }
+			        }
+			    })
+			}</script>
+			
+		</div>
+	</body>
+</html>

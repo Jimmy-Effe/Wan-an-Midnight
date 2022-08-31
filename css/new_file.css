@@ -1,0 +1,57 @@
+body{
+	background-color: #000000;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.qwer{
+	padding-top: 100px;
+}
+@media only screen and (max-width: 768px) {
+  .qwer {
+	  padding-top: 250px;
+	      
+   
+	
+  }
+}
+.p1{
+	font-size: 80px; 
+	margin-top: 150px;
+	color: #ffffff; 
+	font-family: PingFang SC,Hiragino Sans GB,Arial,Microsoft YaHei,Verdana,Roboto,Noto,Helvetica Neue,sans-serif;
+}
+@media only screen and (max-width: 768px) {
+	.p1{
+		font-size: 40px;
+	}
+	}
+.p2{
+	font-size: 50px; 
+	color: #FFFFFF; 
+	font-family: PingFang SC,Hiragino Sans GB,Arial,Microsoft YaHei,Verdana,Roboto,Noto,Helvetica Neue,sans-serif;
+	
+}
+@media only screen and (max-width: 768px) {
+	.p2{
+		font-size: 20px;
+	}
+	}
+.img{
+	display: block;
+	font-family: PingFang SC,Hiragino Sans GB,Arial,Microsoft YaHei,Verdana,Roboto,Noto,Helvetica Neue,sans-serif;
+	height: 50%;
+	width: 50%;
+	margin: auto;
+/* 	margin-bottom: 16px;
+	border-radius: 50%; */
+}
+@media only screen and (max-width: 768px) {
+	.img{
+		display: block;
+		font-family: PingFang SC,Hiragino Sans GB,Arial,Microsoft YaHei,Verdana,Roboto,Noto,Helvetica Neue,sans-serif;
+		height: 80%;
+		width: 80%;
+		margin: auto;
+		/* margin-bottom: 16px;
+		border-radius: 50%; */
+	}
